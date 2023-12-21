@@ -13,17 +13,13 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use({
-	  'folke/tokyonight.nvim', 
-	  as  = 'tokyonight',
-	  config = function()
-		  vim.cmd('colorscheme tokyonight')
-	  end
-  })
-
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  
   use('mbbill/undotree')
+  
   use('tpope/vim-fugitive')
+
+  use { "ellisonleao/gruvbox.nvim" }
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
