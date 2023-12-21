@@ -5,6 +5,7 @@ My nvim configuration but I guess you already know that.
 Requirements : 
 
 Install packer : [https://github.com/wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
+
 Thanks the Primagen : [https://www.youtube.com/c/theprimeagen](https://www.youtube.com/c/theprimeagen)
 
 
