@@ -23,7 +23,7 @@ cmp.setup({
 	},
 	mapping = cmp.mapping.preset.insert({
 		['<C-Space>'] = cmp.mapping.complete(),
-		['<CR>'] = cmp.mapping.confirm({select = false}),
+		['<CR>'] = cmp.mapping.confirm({select = true}),
 		['<C-f>'] = cmp_action.luasnip_jump_forward(),
 		['<C-b>'] = cmp_action.luasnip_jump_backward(),
 		['<C-u>'] = cmp.mapping.scroll_docs(-4),
