@@ -1,2 +1,2 @@
 require("rubalo.remap")
-require("mason").setup()
+require("rubalo.set")
