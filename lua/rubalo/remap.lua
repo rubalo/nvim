@@ -16,3 +16,8 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 -- Move half a screen up and down
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+
+-- Search and center
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
